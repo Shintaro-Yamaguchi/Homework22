@@ -13,7 +13,7 @@ public class Main22 {
 		
 		Control c = new Control();
 		c.control();
-		
+
 	}
 
 }
