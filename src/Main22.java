@@ -12,7 +12,7 @@ public class Main22 {
 		System.out.println("9：プログラムを終了。");
 		
 		Control c = new Control();
-		c.control(); 
+		c.location();
 
 	}
 
