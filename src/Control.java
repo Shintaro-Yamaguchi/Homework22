@@ -1,6 +1,12 @@
 public class Control {
-	int x = 0;
-	int y = 0;
+	int x;
+	int y;
+	
+	Control(int x, int y) {
+		this.x = x;
+		this.y = y;
+		System.out.println("現在位置は、（" + this.x + "、" + this.y + "）");
+	}
 	
 	public void north() {
 		this.y += 1;
